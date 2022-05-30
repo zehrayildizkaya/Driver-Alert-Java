@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Camera">
+    <com.otaliastudios.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        app:cameraAudio="off"
+        app:cameraFacing="front" />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Uygulama bitir"
+        android:padding="10dp"
+        android:textColor="#1B1515"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+</RelativeLayout>

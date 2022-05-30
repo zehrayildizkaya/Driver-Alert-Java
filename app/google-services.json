@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077498192328",
+    "project_id": "appdriver-9b79a",
+    "storage_bucket": "appdriver-9b79a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077498192328:android:e5e12c5ff64d7267c4e0fd",
+        "android_client_info": {
+          "package_name": "com.example.appdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077498192328-5nvpdefi2l4slvj1lmn126emvlm4vkl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOKLhXuIHAXSMsTNTH-Kb-VkGoqP6XRTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077498192328-5nvpdefi2l4slvj1lmn126emvlm4vkl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
